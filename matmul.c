@@ -1,9 +1,9 @@
 /* matmul_blocked_vs_classic.c
  *
  * Compilar:
- *   gcc -O3 -march=native -funroll-loops matmul_blocked_vs_classic.c -o matmul
+ *   gcc -O3 -march=native -funroll-loops matmul.c -o matmul
  *
- * Uso (ejemplo):
+ * Uso:
  *   ./matmul
  *
  * El programa imprimirá resultados en formato CSV:
